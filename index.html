@@ -26,21 +26,43 @@
 
 <body>
 
-  <div class="flex bg-purple-400 min-h-screen w-full">
-    <div class="flex flex-col add-pattern items-center  py-16 max-h-80 min-w-full">
+  <div class="flex flex-col bg-purple-400 items-center min-h-screen w-full">
+    <div class="flex flex-col add-pattern items-center  py-16 h-80 min-w-full">
       <h1 class="pb-2">IP Address Tracker
       </h1>
-      <div class=" h-20 bg-white  lg:w-2/5 w-4/6   md:w-11/12 w-full rounded-lg shadow-xl">
+      <div class=" h-16 bg-white  lg:w-2/5 w-4/6   md:w-8/12 w-full rounded-lg shadow-xl">
 
         <div class="relative h-full w-full ">
           <input class="  flex-1 h-full w-full  rounded-md pl-10 focus:outline-none  px-10" placeholder="Search for any IP address or domain
         " type="text">
           <span class="absolute right-0 items-center content-center pl-2"><button
-              class="bg-black w-20 items-center flex justify-center   focus:outline-none rounded-tr-md rounded-br-md h-20 button-transparent">
+              class="bg-black w-20 items-center flex justify-center   focus:outline-none rounded-tr-md rounded-br-md h-16 button-transparent">
 
               <img src="/images/icon-arrow.svg" alt=""></button></span>
 
         </div>
+      </div>
+    </div>
+    <div
+      class="bg-white h-auto w-11/12 rounded-2xl md:divide-x gap-5 md:divide-y-0 divide-y md:gap-3 center  -mt-20 p-10 md:grid-cols-5  grid grid-cols-1 justify-center">
+      <div class=" pl-6 rounded ">
+        <h5 class="mb-1">IP Address</h5>
+        <h4 class="">192.168.1/123</h4>
+      </div>
+      <div class="pl-6 pt-5 md:pt-0  rounded ">
+        <h5 class="mb-1">Location</h5>
+        <h4 class="">192.168.1/123</h4>
+
+      </div>
+      <div class=" pl-6 pt-5 md:pt-0  rounded ">
+
+        <h5 class="mb-1 ">Timezone UTC</h5>
+        <h4 class="">192.168.1/123</h4>
+      </div>
+      <div class=" pl-6 pt-5 md:pt-0  rounded ">
+
+        <h5 class="mb-1">ISP</h5>
+        <h4 class="">192.168.1/123</h4>
       </div>
 
     </div>
@@ -48,13 +70,8 @@
 
 
 
-  IP Address
-  Location
-  Timezone
-  UTC
-  <!-- add offset value dynamically using the API -->
-  ISP
 
+  <!-- add offset value dynamically using the API -->
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
     Coded by <a href="#">Your Name Here</a>.
