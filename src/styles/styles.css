@@ -1,4 +1,25 @@
-/* No CSS *//*# sourceMappingURL=styles.css.map */
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;500;600;700&display=swap");
+.add-pattern {
+  background-image: url("../../images/pattern-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  font-size: 2em;
+  color: #fff;
+  font-family: "Rubik", sans-serif;
+}
+
+h4 {
+  color: #2b2b2b;
+  font-weight: 700;
+  font-family: "Rubik", sans-serif;
+}
+
+h5 {
+  color: #969696;
+  font-weight: 400;
+  font-family: "Rubik", sans-serif;
+}
+/*# sourceMappingURL=styles.css.map */
