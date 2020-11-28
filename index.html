@@ -9,6 +9,8 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="public/dist/styles.css">
   <link rel="stylesheet" href="src/styles/styles.css">
+  <link href="https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.css" rel="stylesheet" />
+
   <title>Frontend Mentor | IP Address Tracker</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -26,11 +28,11 @@
 
 <body>
 
-  <div class="flex flex-col bg-purple-400 items-center min-h-screen w-full">
+  <div class=" flex flex-col bg-purple-400 items-center min-h-screen w-full">
     <div class="flex flex-col add-pattern items-center  py-16 h-80 min-w-full">
       <h1 class="pb-2">IP Address Tracker
       </h1>
-      <div class=" h-16 bg-white  lg:w-2/5 w-4/6   md:w-8/12 w-full rounded-lg shadow-xl">
+      <div class=" h-16 bg-white  lg:w-2/5    md:w-8/12  w-10/12 rounded-lg shadow-xl">
 
         <div class="relative h-full w-full ">
           <input class="  flex-1 h-full w-full  rounded-md pl-10 focus:outline-none  px-10" placeholder="Search for any IP address or domain
@@ -44,7 +46,7 @@
       </div>
     </div>
     <div
-      class="bg-white h-auto w-11/12 rounded-2xl md:divide-x gap-5 md:divide-y-0 divide-y md:gap-3 center  -mt-20 p-10 md:grid-cols-5  grid grid-cols-1 justify-center">
+      class="bg-white h-auto shadow-2xl w-10/12 justify-center rounded-2xl md:divide-x gap-5 md:divide-y-0 divide-y md:gap-3 center  -mt-20 p-10 md:grid-cols-4  grid grid-cols-1 justify-center">
       <div class=" pl-6 rounded ">
         <h5 class="mb-1">IP Address</h5>
         <h4 class="">192.168.1/123</h4>
